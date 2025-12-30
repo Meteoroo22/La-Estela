@@ -4,30 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>La Estela | Perfumería de Autor</title>
-    
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Montserrat:wght@300;400;500&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
-    
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
 
-    <header class="navbar" id="navbar">
+    <header class="navbar">
         <div class="logo">
-            <span class="logo-icon">~E~</span> 
-            <div class="logo-text">
-                LA ESTELA
-                <span class="logo-subtitle">Haute Parfumerie</span>
-            </div>
+            <span class="logo-icon">~E~</span> LA ESTELA
         </div>
         <nav>
-            <ul class="nav-links">
+            <ul>
                 <li><a href="#inicio">Inicio</a></li>
-                <li><a href="#coleccion">Colección Real</a></li>
-                <li><a href="#nosotros">Filosofía</a></li>
+                <li><a href="#coleccion">Colección</a></li>
+                <li><a href="#nosotros">La Esencia</a></li>
                 <li><a href="#contacto" class="btn-nav">Contacto</a></li>
                 <li><a href="#"><i class="fas fa-shopping-bag"></i> (0)</a></li>
             </ul>
@@ -36,153 +27,99 @@
     </header>
 
     <section id="inicio" class="hero">
-        <div class="hero-overlay"></div>
-        <div class="hero-content" data-aos="fade-up" data-aos-duration="1500">
-            <p class="hero-signature">Deja tu huella</p>
-            <h1>El arte de lo invisible</h1>
-            <p class="hero-desc">Una selección curada de la alta perfumería mundial. Desde los clásicos de culto hasta las joyas ocultas.</p>
-            <a href="#coleccion" class="btn btn-primary">Descubrir Catálogo</a>
+        <div class="hero-content">
+            <h1>El arte de permanecer.</h1>
+            <p>Descubre fragancias que no solo se llevan, se dejan como una huella imborrable.</p>
+            <a href="#coleccion" class="btn btn-primary">Explorar la Colección</a>
         </div>
     </section>
 
     <section id="coleccion" class="section-padding">
         <div class="container">
-            <div class="section-header" data-aos="fade-up">
-                <span class="cursive-accent">Selección Exclusiva</span>
-                <h2 class="section-title">Los Más Deseados</h2>
-                <div class="separator"></div>
-            </div>
+            <h2 class="section-title">Nuestros Iconos</h2>
+            <p class="section-subtitle">Las fragancias más deseadas que definen nuestra estela.</p>
             
             <div class="product-grid">
-                
-                <div class="product-card" data-aos="fade-up" data-aos-delay="100">
-                    <div class="badge">Best Seller</div>
+                <div class="product-card">
                     <div class="product-image">
-                        <img src="https://fimgs.net/mdimg/perfume/375x500.78740.jpg" alt="Valentino Uomo Born in Roma Intense">
-                        <div class="overlay-actions">
-                            <button><i class="fas fa-eye"></i></button>
-                            <button><i class="fas fa-heart"></i></button>
-                        </div>
+                        <img src="https://images.unsplash.com/photo-1594035910387-6b4681503550?q=80&w=1974&auto=format&fit=crop" alt="Perfume Nuit Dorée">
                     </div>
                     <div class="product-info">
-                        <span class="brand">VALENTINO</span>
-                        <h3>Uomo Born in Roma Intense</h3>
-                        <p class="scent-notes">Vainilla Bourbon, Lavanda, Vetiver Ahumado</p>
-                        <div class="price-row">
-                            <span class="price">$3,490.00 MXN</span>
-                        </div>
-                        <button class="btn btn-block">Añadir al carrito</button>
+                        <h3>Nuit Dorée</h3>
+                        <p class="scent-notes">Ámbar, Vainilla, Madera de Oud</p>
+                        <span class="price">$120.00</span>
+                        <button class="btn btn-outline">Añadir al carrito</button>
                     </div>
                 </div>
 
-                <div class="product-card" data-aos="fade-up" data-aos-delay="200">
+                <div class="product-card">
                     <div class="product-image">
-                        <img src="https://fimgs.net/mdimg/perfume/375x500.74636.jpg" alt="Mancera French Riviera">
-                        <div class="overlay-actions">
-                            <button><i class="fas fa-eye"></i></button>
-                            <button><i class="fas fa-heart"></i></button>
-                        </div>
+                        <img src="https://images.unsplash.com/photo-1615634260167-c8adba561096?q=80&w=1974&auto=format&fit=crop" alt="Perfume Brisa Eterna">
                     </div>
                     <div class="product-info">
-                        <span class="brand">MANCERA</span>
-                        <h3>French Riviera</h3>
-                        <p class="scent-notes">Cítricos, Sal Marina, Ámbar</p>
-                        <div class="price-row">
-                            <span class="price">$2,360.00 MXN</span>
-                        </div>
-                        <button class="btn btn-block">Añadir al carrito</button>
+                        <h3>Brisa Eterna</h3>
+                        <p class="scent-notes">Jazmín Blanco, Bergamota, Almizcle</p>
+                        <span class="price">$105.00</span>
+                        <button class="btn btn-outline">Añadir al carrito</button>
                     </div>
                 </div>
 
-                <div class="product-card" data-aos="fade-up" data-aos-delay="300">
-                    <div class="badge luxury">Lujo</div>
+                <div class="product-card">
                     <div class="product-image">
-                        <img src="https://fimgs.net/mdimg/perfume/375x500.9828.jpg" alt="Creed Aventus">
-                        <div class="overlay-actions">
-                            <button><i class="fas fa-eye"></i></button>
-                            <button><i class="fas fa-heart"></i></button>
-                        </div>
+                        <img src="https://images.unsplash.com/photo-1587017539504-67cfbddac569?q=80&w=1935&auto=format&fit=crop" alt="Perfume Sombra Mística">
                     </div>
                     <div class="product-info">
-                        <span class="brand">CREED</span>
-                        <h3>Aventus (100ml)</h3>
-                        <p class="scent-notes">Piña, Abedul, Almizcle, Grosella Negra</p>
-                        <div class="price-row">
-                            <span class="price">$8,768.00 MXN</span>
-                        </div>
-                        <button class="btn btn-block">Añadir al carrito</button>
+                        <h3>Sombra Mística</h3>
+                        <p class="scent-notes">Cuero, Tabaco Dulce, Iris Negro</p>
+                        <span class="price">$135.00</span>
+                        <button class="btn btn-outline">Añadir al carrito</button>
                     </div>
                 </div>
-
-            </div>
-            
-            <div class="view-all-container">
-                <a href="#" class="btn btn-outline">Ver catálogo completo</a>
             </div>
         </div>
     </section>
 
-    <section id="nosotros" class="section-padding experience-section">
-        <div class="container experience-grid">
-            <div class="exp-content" data-aos="fade-right">
-                <span class="cursive-accent">Nuestra Promesa</span>
-                <h2>Más que un aroma, una memoria.</h2>
-                <p>En <strong>La Estela</strong>, no vendemos simples fragancias. Curamos extensiones de tu personalidad. Inspirados en los grandes catálogos del mundo, traemos a ti lo mejor de la perfumería nicho y de diseñador.</p>
-                <div class="features">
-                    <div class="feature-item">
-                        <i class="fas fa-gem"></i>
-                        <span>100% Originales</span>
-                    </div>
-                    <div class="feature-item">
-                        <i class="fas fa-shipping-fast"></i>
-                        <span>Envíos Seguros</span>
-                    </div>
-                </div>
+    <section id="nosotros" class="section-padding about-section">
+        <div class="container about-grid">
+            <div class="about-image">
+                 <img src="https://images.unsplash.com/photo-1616379067009-2a4cb9735500?q=80&w=2070&auto=format&fit=crop" alt="Ingredientes de perfume">
             </div>
-            <div class="exp-image" data-aos="fade-left">
-                 <img src="https://images.unsplash.com/photo-1547887538-e3a2f32cb1cc?q=80&w=1974&auto=format&fit=crop" alt="Perfume artístico">
+            <div class="about-text">
+                <h2>La Esencia de la Estela</h2>
+                <p>Una estela es el rastro que deja un astro en el cielo, o un barco en el mar. Para nosotros, es la memoria olfativa que dejas al pasar.</p>
+                <p>En <strong>La Estela</strong>, curamos fragancias que no buscan complacer a todos, sino conectar profundamente con quien las lleva. Creemos en el perfume como una extensión de la personalidad, un aura invisible pero inolvidable.</p>
             </div>
         </div>
     </section>
 
     <footer id="contacto">
-        <div class="container footer-content">
-            <div class="footer-brand">
+        <div class="container footer-grid">
+            <div class="footer-col">
                 <h3>LA ESTELA</h3>
-                <p class="cursive-accent footer-sign">Tu firma olfativa</p>
+                <p>Tu aroma, tu memoria.</p>
             </div>
-            <div class="footer-info">
-                <p>Calle Independencia 2233, Centro.<br>Culiacán, Sinaloa.</p>
-                <p>contacto@laestela.com</p>
-                <div class="socials">
+            <div class="footer-col">
+                <h4>Enlaces</h4>
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#coleccion">Catálogo Completo</a></li>
+                    <li><a href="#">Política de Envíos</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Contacto</h4>
+                <p>hola@laestela.com</p>
+                <p>+52 55 1234 5678</p>
+                <div class="social-icons">
                     <a href="#"><i class="fab fa-instagram"></i></a>
-                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#"><i class="fab fa-tiktok"></i></a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
                 </div>
             </div>
         </div>
-        <div class="copyright">
-            <p>&copy; 2024 La Estela. Inspirado en la excelencia.</p>
+        <div class="footer-bottom">
+            <p>&copy; 2023 La Estela Perfumería. Todos los derechos reservados.</p>
         </div>
     </footer>
 
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-        // Iniciar animaciones
-        AOS.init({
-            once: true, // La animación solo ocurre una vez
-            offset: 100
-        });
-
-        // Efecto Navbar al hacer scroll
-        window.addEventListener('scroll', function() {
-            const navbar = document.getElementById('navbar');
-            if (window.scrollY > 50) {
-                navbar.classList.add('scrolled');
-            } else {
-                navbar.classList.remove('scrolled');
-            }
-        });
-    </script>
 </body>
 </html>
